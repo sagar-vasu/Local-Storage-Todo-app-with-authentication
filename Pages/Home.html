@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/Home.css" />
+    <title>Home Screen</title>
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="logout()">Logout</button>
+
+      <p>
+        <label for="new-task">Add Item</label
+        ><input id="new-task" type="text" /><button onclick="addItem()">
+          Add
+        </button>
+      </p>
+
+      <h3>Todo</h3>
+      <ul id="tasks"></ul>
+    </div>
+    <script src="../JS/Home.js"></script>
+  </body>
+</html>
